@@ -1,0 +1,76 @@
+
+.detail-container {
+    padding: 20px;
+    background-color: #3d3b3b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .data{
+    display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 20px;
+  align-items: center;
+  justify-items: center;
+  }
+  
+  /* Título */
+  .detail-title {
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: capitalize; /* Capitaliza la primera letra del nombre del Pokémon */
+    margin-bottom: 10px;
+  }
+  
+  
+  .detail-image {
+    width: 500px; 
+    height: 500px; 
+    object-fit: cover; 
+    margin-bottom: 20px;
+  }
+  
+  
+  .detail-stats {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  
+  .detail-types {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .detail-types-button {
+    background-color: #ffffff;
+    color: #312e2e;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: none;
+    transition: background-color 0.3s;
+  }
+  
+ 
+  .back {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    transition: color 0.3s;
+  }

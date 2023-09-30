@@ -1,0 +1,90 @@
+.buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12pt;
+          }
+  
+ 
+  .buscador form {
+    margin: 0 40px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-family: Noto Sans,'Century Gothic', sans-serif;
+    align-items: center;
+    
+  }
+  
+  .buscador input{
+    font-family: Noto Sans,'Century Gothic', sans-serif;
+      font-weight: 100;
+      border: none;
+      border-radius: 90px;
+      padding: 2px 5px;
+      margin-right: 5px;
+      font-size: 10pt;
+      width: 110px;
+      margin-left: 5px;
+      align-content: center;
+      }
+  
+      .buscador form .buscar{
+      font-weight: 500;
+      font-size: 19pt;
+     border:none;
+     box-shadow: none;
+     background-color: transparent;
+  }
+
+ 
+  
+  .alert {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      border: 8px solid #EE6352;
+      color: #000000;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 30px;
+      position: fixed;
+      top: 10px;
+      left:19%;
+      z-index: 9999; 
+    }
+    
+    .alert-message {
+      margin-right: 10px;
+      font-size: 10pt;
+    }
+    
+    .alert-close {
+      background-color: #EE6352;
+      color: #fff;
+      border: none;
+      border-radius: 100%;
+      width: 0;
+      height: 35px;
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 1000px
+      ;
+    }
+    
+  
+    /* Para pantallas más pequeñas */
+  @media (max-width: 768px) {
+   
+         .alert {
+          left: 140px;
+          right:20px;
+         top: 22px ;
+         width: 250px;
+         
+         }
+  
+  }
+    

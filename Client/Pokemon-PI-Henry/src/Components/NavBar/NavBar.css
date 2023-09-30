@@ -1,0 +1,53 @@
+
+.container {
+    background-color: #295485; 
+    padding: 5px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    color: #ffffff; 
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  
+  .container a {
+    text-decoration: none; 
+    color: #000000; 
+    margin: 0 30px; 
+  }
+  
+  .container a:hover {
+    text-decoration: underline; 
+  }
+
+  .custom-button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+  }
+  
+  .icon{
+    height: 60px;
+    margin-left: 25px;
+  }
+
+  .logo{
+    height: 80px;
+    margin: 2px 15px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      display: flex;
+  flex-wrap: wrap;
+ 
+  justify-content: center;
+  text-align: center;/
+    }
+  
+    .container a {
+      margin: 10px 0;
+    }
+  }

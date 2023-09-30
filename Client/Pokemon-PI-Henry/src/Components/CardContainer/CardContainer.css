@@ -1,0 +1,54 @@
+.loading-container {
+  position: relative; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100%; 
+}
+
+.container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px 30px;
+  justify-content: center; 
+}
+
+.filters-menu {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  max-width: 100%; 
+  margin: 10px;
+  min-height: 400px;
+  padding: 20px 30px;
+}
+
+.no-results-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative; 
+}
+
+.no-results-message h1{
+  position: absolute; 
+  z-index: 2; 
+  padding: 180px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.redo-icon {
+  margin-top: 8px;
+  
+}
+
+

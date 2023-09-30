@@ -1,0 +1,53 @@
+.landing-container {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  
+  .entrar {
+    cursor: pointer;
+    background: #000000;
+    color: #ffffff;
+    font-size: 18pt;
+    font-weight: bold;
+    padding: 10px 40px;
+    margin: 10px;
+    position: absolute;
+    bottom: 10%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center;
+    
+  }
+
+ 
+  
+  
+  @media (max-width: 768px) {
+    .video {
+      height: auto; 
+      width: auto; 
+      max-width: 220%; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+    }
+
+    .entrar {
+          bottom: 250px; 
+          }
+
+  }
+ 
+  

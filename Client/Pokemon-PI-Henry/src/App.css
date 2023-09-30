@@ -1,0 +1,69 @@
+div,h2,h3,h4,h5,h6,p,ul,li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  background: none;
+  box-sizing: border-box;
+  color:whitesmoke;
+  text-decoration: none;
+}
+
+body {  
+  height: 1100vh;
+  position: relative;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  height: 100%;
+}
+
+button{
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 50px;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow:  4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+.create-alert {
+  border-radius: 30px;
+  font-size: 16pt;
+  font-weight: 400;
+  padding: 25px;
+  margin: 0px;
+
+}
+
+
+.App {
+  text-align: center;
+  background-color: rgb(46, 45, 45);
+}
+
+body {
+  font-family: Noto Sans,'Century Gothic', sans-serif;
+}
+
+button {
+  font-family: Noto Sans,'Century Gothic', sans-serif;
+}
+
+h1::selection, h2::selection, h3::selection, h4::selection, p::selection, span::selection, 
+li::selection, div::selection, a::selection, b::selection{
+  background-color: #ffcb05;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}

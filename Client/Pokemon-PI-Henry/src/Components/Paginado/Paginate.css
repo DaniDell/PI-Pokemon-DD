@@ -1,0 +1,37 @@
+
+.page-list {
+    list-style: none;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  
+  /* Estilo para los botones de número de página */
+  .page-list li {
+    display: inline-block;
+    margin: 0 2px; 
+  }
+  
+  /* Estilo para el botón activo (página actual) */
+  .page-list li button.active {
+    font-weight: bold;
+    color: black;
+    background-color: #ffcb05;
+  }
+  
+  /* Estilo para las flechas << y >> */
+  .page-list li button.flecha {
+   
+    font-weight: bold;
+    color: #000000;
+    background-color: rgb(211, 67, 67);
+  }
+
+  .page-list li button {
+    width: 30px; 
+    height: 30px;
+    padding: 0 5px; 
+    text-align: center; 
+    font-size: 20px;
+    
+  }
+  
